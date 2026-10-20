@@ -4,7 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MARBELLA Bengaluru</title>
-    <link rel="stylesheet" href="index-BUkesR3W.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f1115;
+            color: #ffffff;
+        }
+        header {
+            background-color: #161920;
+            padding: 20px 40px;
+            border-bottom: 1px solid #242936;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #e5b842;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #e5b842;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(rgba(15, 17, 21, 0.8), rgba(15, 17, 21, 0.9));
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #a0aab8;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        .btn {
+            background-color: #e5b842;
+            color: #0f1115;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #cd9f30;
+        }
+        .highlights {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .highlights h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #e5b842;
+        }
+        .menu-highlight {
+            background-color: #161920;
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid #242936;
+        }
+        .menu-highlight h3 {
+            margin-top: 0;
+            font-size: 22px;
+        }
+        .menu-highlight p {
+            color: #a0aab8;
+        }
+        .price {
+            display: block;
+            font-size: 24px;
+            font-weight: bold;
+            color: #e5b842;
+            margin-top: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #566275;
+            font-size: 14px;
+            border-top: 1px solid #242936;
+            margin-top: 60px;
+        }
+    </style>
 </head>
 <body>
     <div id="root">
@@ -12,10 +123,10 @@
             <nav>
                 <div class="logo">MARBELLA</div>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Book Table</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./contact.html">Book Table</a></li>
                 </ul>
             </nav>
         </header>
@@ -24,7 +135,7 @@
             <section class="hero">
                 <h1>Dine Under the Stars</h1>
                 <p>Welcome to MARBELLA Bengaluru. Experience premium open-air dining, signature mocktails, and an unforgettable culinary journey.</p>
-                <a href="contact.html" class="btn">Book a Table</a>
+                <a href="./contact.html" class="btn">Book a Table</a>
             </section>
 
             <section class="highlights">
@@ -43,3 +154,5 @@
     </div>
 </body>
 </html>
+
+                
